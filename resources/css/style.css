@@ -1,5 +1,8 @@
 body {
   display: block;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .header {
@@ -61,4 +64,15 @@ a:hover, a:visited {
 
 .column.right {
   width: 240px;
+}
+
+.image {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.headline.phish {
+  background-image: url(../images/img-story-main.png);
 }
