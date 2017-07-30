@@ -34,6 +34,26 @@ a:hover, a:visited {
   color: black;
 }
 
-.body {
+.main {
   display: flex;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.column.left {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.center {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.right {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
 }
