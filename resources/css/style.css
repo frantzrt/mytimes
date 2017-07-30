@@ -40,15 +40,19 @@ a:hover, a:visited {
 
 .main {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.left {
   width: 630px;
+  padding: 20px;
 }
 
 .column.center {
