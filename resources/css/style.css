@@ -11,6 +11,13 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 41px;
+}
+
 .header {
   display: flex;
   font-family: Verdana;
@@ -74,6 +81,7 @@ a:hover, a:visited {
 
 .column.right {
   width: 240px;
+  flex-direction: column;
 }
 
 .stories {
@@ -103,6 +111,59 @@ a:hover, a:visited {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+.bites {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family: Verdana;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  margin: 0;
+}
+
+.bite {
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footernav {
+  display: flex;
+  width: 375px;
+  justify-content: center;
+}
+
+.mytimes {
+  font-size: 14px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  padding: 0 20px;
+  border-right: 2px solid white;
+}
+
+.footerlinks {
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.footerlinks span {
+  padding: 20px 10px;
 }
 
 #phish {
