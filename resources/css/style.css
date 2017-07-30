@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header-title {
+  color: MediumAquamarine;
+  align-content: center;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
