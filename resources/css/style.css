@@ -7,11 +7,13 @@
 
 .header-title {
   color: MediumAquamarine;
-  align-content: center;
+
 }
 
 .nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+}
+
+a:hover, a:visited {
+  color: black;
 }
