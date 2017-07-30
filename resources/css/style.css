@@ -3,17 +3,37 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  height: auto;
+}
+
+.logo {
+  padding-left: 10px;
 }
 
 .header-title {
+  display: flex;
   color: MediumAquamarine;
-
+  padding: 10px;
+  align-items: center;
 }
 
 .nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 
+.link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
 }
 
 a:hover, a:visited {
   color: black;
+}
+
+.body {
+  display: flex;
 }
